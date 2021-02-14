@@ -1,7 +1,7 @@
 # img-to-chars
 Convert an img to a character image!
 
-An example can be found in the `imgs`, where [this image]() was converted to text.
+An example can be found in the `imgs`, where [this image](https://book-of-mario.fandom.com/wiki/Darkness?file=Darkness.png) was converted to text.
 
 ## Install
 
