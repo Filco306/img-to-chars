@@ -31,10 +31,6 @@ def convert_image_to_text(
             app_.append(CHARS[np.where(limits == limits[pixel <= limits][0])[0][0]])
         text_arr += "".join(app_) + "\n"
 
-    # if output_file_path is None:
-    # file_name = file_path.split("/")[-1].split(".")[0]
-
-    # output_file_path = os.path.join("output", file_name + ".txt")
     print(text_arr)
     if output_file_path is not None:
         with open(output_file_path, "w") as f:
