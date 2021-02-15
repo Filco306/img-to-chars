@@ -1,7 +1,7 @@
 # img-to-chars
 Convert an img to a character image!
 
-An example can be found in the `imgs`, where [this image](https://book-of-mario.fandom.com/wiki/Darkness?file=Darkness.png) was converted to text.
+An example can be found in the `output` folder, where [this image](https://book-of-mario.fandom.com/wiki/Darkness?file=Darkness.png) was converted to text.
 
 ## Install
 
@@ -27,4 +27,4 @@ If your image is too granular, you can reduce the granularity through the `--siz
 
 ## Some additional notes
 
-This is not fully tested yet! If you try to use it and it does not work, please submit an issue so I can improve it!
+This is not fully tested yet! I have tried on `.jpg`- and `.png`-files, and it seems to work okay on those file types. If you try to use it and it does not work, please submit an issue so I can improve it!
